@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "278866368722",
+    "firebase_url": "https://filter-obscene-words.firebaseio.com",
+    "project_id": "filter-obscene-words",
+    "storage_bucket": "filter-obscene-words.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278866368722:android:cfb5e3aa6a5e4fd5",
+        "android_client_info": {
+          "package_name": "com.marcos.gabriel.filterobscenewords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278866368722-ptet36pt7hjgjma0p7n236uvrhcl4k6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marcos.gabriel.filterobscenewords",
+            "certificate_hash": "c18634e427ceccc760752e3c2a27be2e95284d67"
+          }
+        },
+        {
+          "client_id": "278866368722-savfqkfmamb3agud9hvidmud6ndh91kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3s9BoX5NaYJdhcF17AKXjzKKDb1J29Sk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278866368722-savfqkfmamb3agud9hvidmud6ndh91kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
