@@ -1,8 +1,13 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: "com.jfrog.bintray"
+
+version = "1.0.0"
 
 android {
     compileSdkVersion 26
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
         minSdkVersion 15
@@ -42,11 +47,10 @@ apply plugin: 'com.google.gms.google-services'
 
 def siteUrl = 'https://github.com/gamarcos/filterObsceneWords'     // Homepage URL of the library
 def gitUrl  = 'https://github.com/gamarcos/filterObsceneWords.git' // Git repository URL
-group       = "com.jgabrielfreitas"                           // Maven Group ID for the artifact
+group       = "com.marcos.gabriel.filterobscenewords"                           // Maven Group ID for the artifact
 
 install {
     repositories.mavenInstaller {
-        // This generates POM.xml with proper parameters
         pom {
             project {
                 packaging 'aar'
