@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FilterObsceneWords.iml" filepath="$PROJECT_DIR$/FilterObsceneWords.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filterObsceneWords.iml" filepath="$PROJECT_DIR$/filterObsceneWords.iml" />
       <module fileurl="file://$PROJECT_DIR$/filterobscenewords/filterobscenewords.iml" filepath="$PROJECT_DIR$/filterobscenewords/filterobscenewords.iml" />
     </modules>
   </component>

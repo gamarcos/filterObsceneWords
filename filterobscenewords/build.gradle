@@ -7,7 +7,7 @@ version = "1.0.0"
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
         minSdkVersion 15
@@ -31,9 +31,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.google.firebase:firebase-database:11.8.0'
-    implementation 'com.google.firebase:firebase-database:11.8.0'
-
     implementation 'com.android.support:appcompat-v7:26.1.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
@@ -47,7 +44,7 @@ apply plugin: 'com.google.gms.google-services'
 
 def siteUrl = 'https://github.com/gamarcos/filterObsceneWords'     // Homepage URL of the library
 def gitUrl  = 'https://github.com/gamarcos/filterObsceneWords.git' // Git repository URL
-group       = "com.marcos.gabriel.filterobscenewords"                           // Maven Group ID for the artifact
+group       = "com.marcos.gabriel.filterobscenewords"              // Maven Group ID for the artifact
 
 install {
     repositories.mavenInstaller {
